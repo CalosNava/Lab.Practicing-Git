@@ -1,0 +1,26 @@
+.math-card{
+    display:inline-block;
+    background-color:orange;
+    padding-left:2em;
+    padding-right:2em;
+    margin-right:5em;
+    font-family:monospace;
+    font-size:30px;
+}
+
+.first-term{
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+.second-term{
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+.result-term{
+    margin-top:15px;
+    margin-bottom:15px;
+    border-top:5px solid black;
+    font-weight:bolder;
+}

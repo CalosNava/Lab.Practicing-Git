@@ -1,0 +1,16 @@
+body{
+    background-color:lightblue;
+}
+
+h1{
+    text-decoration:underline;
+    text-align:center;
+    color:lightpink;
+    font-size:xxx-large;
+}
+
+p{
+    text-align:center;
+    color:lightyellow;
+    font-size:xx-large;
+}

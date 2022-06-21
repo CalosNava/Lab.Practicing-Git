@@ -1,0 +1,23 @@
+.featured{
+    width:480px;
+    margin:0 auto;
+    background-color: #eee;
+    color:#166;
+    padding: 20px;
+    margin-top: 0%;
+
+}
+
+article img {
+    float:right;
+}
+
+.image{
+    image-resolution: 128/128;
+    border-radius: 50%;
+}
+
+a:hover {
+    text-decoration: underline;
+    color:#cf8;
+  }

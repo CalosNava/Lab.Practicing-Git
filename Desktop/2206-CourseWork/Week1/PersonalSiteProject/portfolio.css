@@ -1,0 +1,126 @@
+* {
+    background-color: skyblue;
+   
+}
+
+html {
+    font-family: 'Fjalla One', sans-serif;    
+    font-size: 18px;
+    text-align: center;
+}
+
+header,footer {
+    width: max-content;
+    height: auto;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: .5%;
+    position: absolute;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width:100%;
+    font-size: 40px;
+    
+}
+
+header {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    text-align: center;
+    
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    text-align: center;
+    position: relative;
+    display: block;
+
+}
+
+li {
+    float: left;
+}
+
+nav {
+    display: inline-block;
+    padding: 8px;
+    background-color: black;
+    margin-top: 40px;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    opacity: 0.7;
+}
+
+p {
+    background-color: lightcoral;
+    border: 1px black;
+    margin-top: 0;
+    font-size: auto;
+    box-sizing: content-box;
+    
+    
+}
+
+h2 {
+    text-decoration: underline;
+    font-size: 5rem ;
+    margin-top: 1%;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-instagram {
+      background: #3B5998;
+      color: white;
+  }
+
+.img {
+    position: absolute;
+}
+
+.section {
+    position: absolute;
+    
+}
+

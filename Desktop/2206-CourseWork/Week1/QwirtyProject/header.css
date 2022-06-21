@@ -1,0 +1,104 @@
+.main-nav {
+    display: flex;
+    background-color: #44b;
+    justify-content: space-between;
+    text-decoration: none;
+    padding: 2px;
+    letter-spacing: 1px;
+    margin-left: none;
+    color: white;
+    
+}
+
+.sub-nav {
+    display: flex;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+.short-width{
+    display: flex;
+    padding: 12px;
+}
+
+.full-width {
+    display: none;
+    padding: 12px;
+    color: white;
+    font-size: 12px;
+}
+
+@media (min-width: 768px) {
+    .short-width {
+      display: none;
+    }
+    .full-width {
+        display: flex;
+    }
+  }
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    padding: 1px;
+    border-right: 2px white;
+    float: right;
+    
+}
+
+.nav-list li:last-of-type a {
+    border-right: none;
+}
+
+.main-nav a {
+    padding: 10px;
+    border-right: 12px;
+    letter-spacing: 2.5px;
+    text-decoration: none;
+    color: white;
+}
+
+
+.search-form {
+    width: 100%;
+    display: flex;
+    flex-grow: 1;
+    margin-top: 12px;
+    
+}
+
+input {
+    padding: 12px;
+    border: none;
+    border-bottom: white;
+    flex-grow: 50;
+}
+
+button {
+    padding: 10px;
+    border: none
+}
+
+.company-name {
+    color: #44b;
+    background-color: #eee;
+    font-size: 30px;
+    margin-top: 12px;
+    padding: 2px;
+    margin-left: 12px;
+}
+
+.credit-offer {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 12px;
+}
+
+ul {
+    text-decoration: none;
+    list-style-type: none;
+}
